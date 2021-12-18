@@ -53,7 +53,7 @@ Note: original MCS models used a variety of shaders, not all of which will be co
 
 ## Troubleshooting
 *I don't see any morphs when I adjust the sliders apart from the very first one.*\
-Make sure GPU Skinning is turned OFF in player options.
+Make sure GPU Skinning (or Compute Skinning) is turned OFF in player options, other settings.   GPU Skinning was renamed to Compute Skinning in Unity 2019.3.  
 
 *I'm getting build errors saying "Assembly UnityEditor is referenced in MCS_Importer"*\
 Select MCS_Importer.dll and under Select platforms for plugin, only include Editor.
